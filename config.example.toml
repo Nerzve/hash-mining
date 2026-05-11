@@ -20,15 +20,13 @@ poll_interval_ms = 2000
 event_subscribe  = true
 
 [submit]
-priority_tip_gwei         = 6.0
-max_priority_tip_gwei     = 25.0
-base_fee_multiplier       = 3
+priority_tip_gwei         = 3.0
+max_priority_tip_gwei     = 5.0
+base_fee_multiplier       = 2
 gas_min                   = 200000
 gas_max                   = 400000
 gas_estimate_timeout_ms   = 4000
 submit_timeout_ms         = 12000
 
 [economics]
-min_hash_price_usd       = 0.0
-gas_budget_per_hour_usd  = 0.0
-min_balance_eth          = 0.05
+min_balance_eth          = 0.0005
